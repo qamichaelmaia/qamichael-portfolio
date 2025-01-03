@@ -8,33 +8,43 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Me chamo <span className="purple">Michael Maia </span>
+            tenho 28 anos e moro no interior da <span className="purple"> Bahia.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+
+            Atuamente participo de projetos como Freelancer na{" "}
+            <span style={{ color: "#ffa875" }}>Crowdtest</span> e sou QA Voluntário no projeto{" "}
+            <span style={{ color: "#f5ec84" }}>Pipoca Ágil</span>.
+            Sou formado no curso{" "}
+            <span className="purple">Engenheiro de Qualidade de Software</span> na EBAC, e estou concluindo a graduação de{" "}
+            <span className="purple">Análise e Desenvolvimento de Sistemas</span> pela Faculdade VINCIT.
+            <br />
+            <br />
+            Atuei como{" "}
+            <span className="purple">Designer Gráfico</span> Freelancer por 3 anos, liderando uma equipe de desenvolvimento com 8 colaboradores. Também realizei treinamentos para estagiários da área de Design e Gerenciamento de Projetos.
+            <br />
+            <br />
+            <br />
+            <span style={{ color: "#d2b8ff" }}>Além de Qualidade de Software, tenho alguns Hobbies!</span>
+            
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Ilustração Digital
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Viagens, Trilhas e Rapel
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Filmes e Séries
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Dê o seu melhor para construir coisas que possam fazer a diferença!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Michael Maia</footer>
         </blockquote>
       </Card.Body>
     </Card>

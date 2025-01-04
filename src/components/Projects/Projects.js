@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import ebacWeb from "../../Assets/Projects/automation-ebacweb.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import ebacAppium from "../../Assets/Projects/appium-ebacshop.png";
 import automationExercise from "../../Assets/Projects/automation-exercise.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import reactApp from "../../Assets/Projects/reactnative-app.png";
@@ -17,7 +17,7 @@ function Projects() {
         <h1 className="project-heading">
           Meus <strong className="purple">Projetos </strong>recentes
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "#bdbfbe" }}>  {/* Cor cinza mais escura */}
           Aqui estão alguns projetos desenvolvidos nos últimos meses.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -36,28 +36,28 @@ function Projects() {
               imgPath={reactApp}
               isBlog={false}
               title="React Native App"
-              description="Este projeto consiste na criação de um aplicativo simples em React Native com duas páginas principais: uma página de login fake e uma página de exibição de notificações."
+              description="Criação de um aplicativo simples em React Native com duas páginas principais: uma página de login fake e uma página de exibição de notificações."
               ghLink="https://github.com/qamichaelmaia/reactnative-website"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ebacAppium}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="EBAC Shop"
+              description="Automação de testes de uma aplicação mobile, cobrindo o fluxo completo de login, seleção de produto e finalização de compra. O ambiente utiliza WebdriverIO, Appium, Allure Report e Android Studio."
+              ghLink="https://github.com/qamichaelmaia/application-mobile-test"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ebacWeb}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Automação Web com Cypress"
+              description="Projeto em JavaScript utilizando Cypress para automatizar o fluxo completo de um e-commerce, incluindo login, atualização de cadastro, seleção de produto, adição ao carrinho e testes da API de cupons de desconto. Utiliza ferramentas como Faker para geração de dados, Webpack e Babel para empacotamento e transpile, e Docker para garantir um ambiente consistente."
+              ghLink="https://github.com/qamichaelmaia/TCC-EBAC-QE"
             />
           </Col>
 

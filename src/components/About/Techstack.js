@@ -1,68 +1,34 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiJavascript1, DiPython, DiJava } from "react-icons/di";
+import { SiTypescript, SiCsharp, SiDotnet } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiJavascript1 style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>JavaScript</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiPython style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Python</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiTypescript style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>TypeScript</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiJava style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Java</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiCsharp style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>C#</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiDotnet style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>.NET</div>
       </Col>
     </Row>
   );

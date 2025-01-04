@@ -12,6 +12,18 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
+        {/* Novo título adicionado no topo da página */}
+        <h1
+          style={{
+            fontSize: "2em",
+            textAlign: "left", // Alinhado à esquerda
+            fontWeight: "bold",
+            marginBottom: "-25px", // Espaçamento inferior
+          }}
+        >
+          Qualificações <strong className="purple">TÉCNICAS</strong>
+        </h1>
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -21,9 +33,6 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Um pouco <strong className="purple">SOBRE MIM!</strong>
-            </h1>
             <Aboutcard />
           </Col>
           <Col
@@ -34,17 +43,32 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Minhas <strong className="purple">Hardskills </strong>
-        </h1>
 
+        {/* Novo título e conteúdo para Linguagens */}
+        <h3
+          className="project-heading"
+          style={{
+            fontSize: "1.5em",
+            textAlign: "center", // Centralizando o título
+          }}
+        >
+          Minhas <strong className="purple">LINGUAGENS</strong>
+        </h3>
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Ferramentas</strong> que uso
-        </h1>
+        {/* Já existente - Ferramentas */}
+        <h3
+          className="project-heading"
+          style={{
+            fontSize: "1.5em",
+            textAlign: "center", // Centralizando o título
+          }}
+        >
+          Minhas <strong className="purple">FERRAMENTAS</strong>
+        </h3>
         <Toolstack />
 
+        {/* Já existente - Github */}
         <Github />
       </Container>
     </Container>

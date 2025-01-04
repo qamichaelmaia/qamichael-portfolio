@@ -12,9 +12,26 @@ function Home2() {
             <Button
               variant="primary"
               href="about" // Isso leva para a seção com o ID "sobre"
-              style={{ marginTop: "-200px", marginBottom: "20px" }} // Ajuste da margem
+              style={{ marginTop: "-200px", marginBottom: "20px", marginRight: "10px" }} // Ajuste da margem
             >
-              Sobre mim
+              Qualificações
+            </Button>
+
+            {/* Botões Projetos e Currículo ao lado */}
+            <Button
+              variant="primary"
+              href="project" // Substitua pelo link do seu repositório de projetos
+              style={{ marginTop: "-200px", marginBottom: "20px", marginRight: "10px" }}
+            >
+              Projetos
+            </Button>
+
+            <Button
+              variant="primary"
+              href="resume" // Substitua pelo link do seu currículo ou LinkedIn
+              style={{ marginTop: "-200px", marginBottom: "20px" }}
+            >
+              Currículo
             </Button>
           </Col>
         </Row>
@@ -26,8 +43,7 @@ function Home2() {
               Vamos nos <span className="purple">conectar </span>
             </p>
             <ul className="home-about-social-links">
-
-            <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/qamichael/"
                   target="_blank"
@@ -48,8 +64,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-
-
 
               <li className="social-icons">
                 <a

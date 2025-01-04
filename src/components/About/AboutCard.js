@@ -1,51 +1,97 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaCode, FaCogs, FaDatabase, FaProjectDiagram, FaLanguage, FaTools } from "react-icons/fa";
+import { MdOutlineDevices } from "react-icons/md";
+
+// Função para renderizar um título com ícone e descrição
+function SectionTitle({ title, description, Icon }) {
+  return (
+    <div style={{ marginBottom: "15px" }}>
+      <h4
+        style={{
+          color: "#ba70fa",
+          fontWeight: "bold",
+          fontSize: "1.2rem",  // Tamanho reduzido
+          display: "flex",
+          alignItems: "center",
+          gap: "8px",
+          margin: 0,
+        }}
+      >
+        {Icon && <Icon style={{ color: "#6c63ff", fontSize: "1.5rem" }} />}
+        {title}
+      </h4>
+      <p style={{ textAlign: "justify", fontSize: "1rem", color: "#ffffff", margin: "5px 0 0" }}>
+        {description}
+      </p>
+    </div>
+  );
+}
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card
+      className="quote-card-view"
+      style={{
+        backgroundColor: "#1c1e21", // Cor de fundo escura
+        border: "5px solid #6c63ff", // Borda destacada com roxo
+        padding: "20px",
+        borderRadius: "15px", // Bordas mais arredondadas
+        boxShadow: "0px 5px 15px rgba(197, 98, 255, 0.5)", // Sombra mais pronunciada
+        color: "#ffffff", // Texto branco para contraste
+      }}
+    >
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Me chamo <span className="purple">Michael Maia </span>
-            tenho 28 anos e moro no interior da <span className="purple"> Bahia.</span>
-            <br />
-            <br />
-
-            Atuamente participo de projetos como Freelancer na{" "}
-            <span style={{ color: "#ffa875" }}>Crowdtest</span> e sou QA Voluntário no projeto{" "}
-            <span style={{ color: "#f5ec84" }}>Pipoca Ágil</span>.
-            Sou formado no curso{" "}
-            <span className="purple">Engenheiro de Qualidade de Software</span> na EBAC, e estou concluindo a graduação de{" "}
-            <span className="purple">Análise e Desenvolvimento de Sistemas</span> pela Faculdade VINCIT.
-            <br />
-            <br />
-            Atuei como{" "}
-            <span className="purple">Designer Gráfico</span> Freelancer por 3 anos, liderando uma equipe de desenvolvimento com 8 colaboradores. Também realizei treinamentos para estagiários da área de Design e Gerenciamento de Projetos.
-            <br />
-            <br />
-            <br />
-            <span style={{ color: "#d2b8ff" }}>Além de Qualidade de Software, tenho alguns Hobbies!</span>
-            
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Ilustração Digital
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Viagens, Trilhas e Rapel
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Filmes e Séries
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Dê o seu melhor para construir coisas que possam fazer a diferença!"
-          </p>
-          <footer className="blockquote-footer">Michael Maia</footer>
-        </blockquote>
+        <SectionTitle
+          title="Linguagens de Programação"
+          description="Javascript, Python, React, Typescript, Java, C# e .Net"
+          Icon={FaCode}
+        />
+        <SectionTitle
+          title="Automação de Testes"
+          description="Cypress, Playwright e Selenium."
+          Icon={FaCogs}
+        />
+        <SectionTitle
+          title="Tipos de Teste"
+          description="Testes automatizados (Web e Mobile), testes funcionais, testes não funcionais, testes de manutenção, testes exploratórios e testes baseados em risco."
+          Icon={MdOutlineDevices}
+        />
+        <SectionTitle
+          title="Desenvolvimento"
+          description="React, Visual Studio Code, Android Studio e IntelliJ."
+          Icon={FaCode}
+        />
+        <SectionTitle
+          title="Pipelines CI/CD"
+          description="GitLab, Jenkins e GitHub Actions."
+          Icon={FaTools}
+        />
+        <SectionTitle
+          title="Testes de API"
+          description="Postman, Swagger, GraphQL e Cypress Crud."
+          Icon={FaTools}
+        />
+        <SectionTitle
+          title="Banco de Dados"
+          description="SQL Server, NoSQL, MySQL e MongoDB."
+          Icon={FaDatabase}
+        />
+        <SectionTitle
+          title="Metodologias Ágeis"
+          description="Scrum, Kanban e Waterfall."
+          Icon={FaProjectDiagram}
+        />
+        <SectionTitle
+          title="Gestão de Projetos"
+          description="Jira, Trello, Qase."
+          Icon={FaProjectDiagram}
+        />
+        <SectionTitle
+          title="Idiomas"
+          description="Inglês Nível B1 (pré-intermediário)."
+          Icon={FaLanguage}
+        />
       </Card.Body>
     </Card>
   );

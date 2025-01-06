@@ -3,22 +3,21 @@ import Card from "react-bootstrap/Card";
 import { FaCode, FaCogs, FaDatabase, FaProjectDiagram, FaLanguage, FaTools } from "react-icons/fa";
 import { MdOutlineDevices } from "react-icons/md";
 
-// Função para renderizar um título com ícone e descrição
 function SectionTitle({ title, description, Icon }) {
   return (
     <div style={{ marginBottom: "15px" }}>
       <h4
         style={{
-          color: "#ba70fa",
+          color: "#C770F0",
           fontWeight: "bold",
-          fontSize: "1.2rem",  // Tamanho reduzido
+          fontSize: "1.2rem", // Tamanho reduzido
           display: "flex",
           alignItems: "center",
           gap: "8px",
           margin: 0,
         }}
       >
-        {Icon && <Icon style={{ color: "#6c63ff", fontSize: "1.5rem" }} />}
+        {Icon && <Icon style={{ color: "#7088E1", fontSize: "1.5rem" }} />}
         {title}
       </h4>
       <p style={{ textAlign: "justify", fontSize: "1rem", color: "#ffffff", margin: "5px 0 0" }}>
@@ -39,12 +38,14 @@ function AboutCard() {
         borderRadius: "15px", // Bordas mais arredondadas
         boxShadow: "0px 5px 15px rgba(197, 98, 255, 0.5)", // Sombra mais pronunciada
         color: "#ffffff", // Texto branco para contraste
+        width: "100%", // Garantir que ocupe toda a largura disponível
       }}
     >
       <Card.Body>
+        {/* Primeira seção: Qualificações técnicas */}
         <SectionTitle
           title="Linguagens de Programação"
-          description="Javascript, Python, React, Typescript, Java, C# e .Net"
+          description="Javascript, Python, React, Typescript, Java, Ruby, C# e .Net."
           Icon={FaCode}
         />
         <SectionTitle
@@ -54,7 +55,7 @@ function AboutCard() {
         />
         <SectionTitle
           title="Tipos de Teste"
-          description="Testes automatizados (Web e Mobile), testes funcionais, testes não funcionais, testes de manutenção, testes exploratórios e testes baseados em risco."
+          description="Testes automatizados (Web e Mobile), testes exploratórios, testes de unidade, testes funcionais, testes não funcionais, testes de manutenção e testes baseados em risco."
           Icon={MdOutlineDevices}
         />
         <SectionTitle

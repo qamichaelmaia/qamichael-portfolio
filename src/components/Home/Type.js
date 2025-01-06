@@ -11,7 +11,7 @@ function Type() {
           "Quality Assurance",
           "Analista de Testes",
           "Freelancer",
-          "Voluntário",
+          "QA Voluntário",
           "Contribuidor Open Source",
         ],
         autoStart: true,

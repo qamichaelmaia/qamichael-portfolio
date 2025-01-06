@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiPython, DiJava } from "react-icons/di";
-import { SiTypescript, SiCsharp, SiDotnet } from "react-icons/si";
+import { DiJavascript1, DiPython, DiJava, DiRuby } from "react-icons/di";
+import { SiTypescript, SiCsharp, SiDotnet, SiReact } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -19,8 +19,16 @@ function Techstack() {
         <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>TypeScript</div>
       </Col>
       <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiReact style={{ fontSize: "3rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>React</div>
+      </Col>
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
         <DiJava style={{ fontSize: "4rem" }} />
         <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Java</div>
+      </Col>
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <DiRuby style={{ fontSize: "4rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Ruby</div>
       </Col>
       <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
         <SiCsharp style={{ fontSize: "4rem" }} />

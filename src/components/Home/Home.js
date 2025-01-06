@@ -28,7 +28,7 @@ function Home() {
                 e sou...
               </h1>
 
-              <div style={{ padding: 20, textAlign: "left" }}>
+              <div style={{ padding: 30, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
@@ -49,7 +49,7 @@ function Home() {
                   src={homeLogo}
                   alt="home pic"
                   className="img-fluid"
-                  style={{ maxHeight: "300px", maxWidth: "100%" }}
+                  style={{ maxHeight: "250px", maxWidth: "100%" }}
                 />
               </Tilt>
             </Col>

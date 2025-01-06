@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/qamichael-portfolio/static/css/main.9a8bed1b.css",
-    "main.js": "/qamichael-portfolio/static/js/main.fcd40d6b.js",
-    "static/js/415.4d6acbeb.chunk.js": "/qamichael-portfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/qamichael-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/qamichael-portfolio/static/css/main.60834f72.css",
+    "main.js": "/qamichael-portfolio/static/js/main.9b1a2bc0.js",
+    "static/js/770.b477def6.chunk.js": "/qamichael-portfolio/static/js/770.b477def6.chunk.js",
+    "static/js/453.1407b060.chunk.js": "/qamichael-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/appium-ebacshop.png": "/qamichael-portfolio/static/media/appium-ebacshop.15ccfe956d958849862b.png",
     "static/media/automation-ebacweb.png": "/qamichael-portfolio/static/media/automation-ebacweb.8f4bf126e3b126d2b500.png",
     "static/media/qualifySkills.png": "/qamichael-portfolio/static/media/qualifySkills.5ec6f7bacc461ad03ced.png",
@@ -14,15 +14,15 @@
     "static/media/michaelmaia_qa_junior.pdf": "/qamichael-portfolio/static/media/michaelmaia_qa_junior.6e515ea95f5545eecf1e.pdf",
     "static/media/home-bg.jpg": "/qamichael-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/qamichael-portfolio/static/media/logo.adb8fd18e7cf84060a39.png",
-    "static/media/pre.svg": "/qamichael-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/pre.svg": "/qamichael-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/qamichael-portfolio/index.html",
-    "main.9a8bed1b.css.map": "/qamichael-portfolio/static/css/main.9a8bed1b.css.map",
-    "main.fcd40d6b.js.map": "/qamichael-portfolio/static/js/main.fcd40d6b.js.map",
-    "415.4d6acbeb.chunk.js.map": "/qamichael-portfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/qamichael-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.60834f72.css.map": "/qamichael-portfolio/static/css/main.60834f72.css.map",
+    "main.9b1a2bc0.js.map": "/qamichael-portfolio/static/js/main.9b1a2bc0.js.map",
+    "770.b477def6.chunk.js.map": "/qamichael-portfolio/static/js/770.b477def6.chunk.js.map",
+    "453.1407b060.chunk.js.map": "/qamichael-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a8bed1b.css",
-    "static/js/main.fcd40d6b.js"
+    "static/css/main.60834f72.css",
+    "static/js/main.9b1a2bc0.js"
   ]
 }

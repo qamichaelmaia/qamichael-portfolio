@@ -7,35 +7,6 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row className="justify-content-center">
-          <Col md={8} className="home-about-description text-center">
-            <Button
-              variant="primary"
-              href="about" // Isso leva para a seção com o ID "sobre"
-              style={{ marginTop: "-200px", marginBottom: "20px", marginRight: "10px" }} // Ajuste da margem
-            >
-              Qualificações
-            </Button>
-
-            {/* Botões Projetos e Currículo ao lado */}
-            <Button
-              variant="primary"
-              href="project" // Substitua pelo link do seu repositório de projetos
-              style={{ marginTop: "-200px", marginBottom: "20px", marginRight: "10px" }}
-            >
-              Projetos
-            </Button>
-
-            <Button
-              variant="primary"
-              href="resume" // Substitua pelo link do seu currículo ou LinkedIn
-              style={{ marginTop: "-200px", marginBottom: "20px" }}
-            >
-              Currículo
-            </Button>
-          </Col>
-        </Row>
-
         <Row>
           <Col md={12} className="home-about-social">
             <h1>MEUS CONTATOS</h1>

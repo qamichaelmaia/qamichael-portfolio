@@ -21,10 +21,12 @@ jobs:
         run: |
           npm ci
           npm run build
+          # Certifique-se de que o 404.html esteja na pasta build
+          cp ./404.html ./build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          destination_dir: ./ # Corrigido para caminho relativo
+          destination_dir: ./ # Caminho relativo

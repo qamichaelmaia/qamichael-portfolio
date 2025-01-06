@@ -741,3 +741,26 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* Estilos padrão para dispositivos maiores */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-title-date {
+  display: none;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .section-title-date {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .section-title h4 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

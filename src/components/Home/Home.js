@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import { ImPointRight } from "react-icons/im"; 
+import { ImRocket, ImPaintFormat, ImSun, ImTv } from "react-icons/im";
 
 function Home() {
   return (
@@ -35,7 +35,7 @@ function Home() {
 
             <Col
               md={6}
-              className="d-flex justify-content-center align-items-center"
+              className="d-flex justify-content-center align-items-center flex-column"
             >
               <Tilt
                 tiltMaxAngleX={20}
@@ -80,45 +80,40 @@ function Home() {
 
                     <ul>
                       <li className="about-activity">
-                        <ImPointRight /> Astronomia
+                        <ImRocket /> Astronomia
                       </li>
                       <li className="about-activity">
-                        <ImPointRight /> Ilustração Digital
+                        <ImPaintFormat /> Ilustração Digital
                       </li>
                       <li className="about-activity">
-                        <ImPointRight /> Viagens, Trilhas e Rapel
+                        <ImSun /> Viagens, Trilhas e Rapel
                       </li>
                       <li className="about-activity">
-                        <ImPointRight /> Filmes, Séries e Jogos
+                        <ImTv /> Filmes, Séries e Jogos
                       </li>
                     </ul>
-
                   </blockquote>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
 
-          {/* Novo Row para a frase centralizada */}
           <Row className="justify-content-center mt-5">
             <Col md={8} className="text-center">
               <p
                 style={{
                   color: "rgb(155 126 172)",
-                  fontStyle: "italic", // Tornando o texto mais destacado
+                  fontStyle: "italic",
                 }}
               >
                 "Dê o seu melhor para construir coisas que possam fazer a diferença!"
               </p>
-              <footer className="blockquote-footer">
-                Michael Maia
-              </footer>
+              <footer className="blockquote-footer">Michael Maia</footer>
             </Col>
           </Row>
         </Container>
       </Container>
 
-      {/* Seção Home2 */}
       <Home2 />
     </section>
   );

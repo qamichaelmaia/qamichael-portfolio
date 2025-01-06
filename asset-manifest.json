@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/qamichael-portfolio/static/css/main.60834f72.css",
+    "main.css": "/qamichael-portfolio/static/css/main.1273cc03.css",
     "main.js": "/qamichael-portfolio/static/js/main.9b1a2bc0.js",
     "static/js/770.b477def6.chunk.js": "/qamichael-portfolio/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/qamichael-portfolio/static/js/453.1407b060.chunk.js",
@@ -14,15 +14,15 @@
     "static/media/michaelmaia_qa_junior.pdf": "/qamichael-portfolio/static/media/michaelmaia_qa_junior.6e515ea95f5545eecf1e.pdf",
     "static/media/home-bg.jpg": "/qamichael-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/qamichael-portfolio/static/media/logo.adb8fd18e7cf84060a39.png",
-    "static/media/pre.svg": "/qamichael-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/pre.svg": "/qamichael-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/qamichael-portfolio/index.html",
-    "main.60834f72.css.map": "/qamichael-portfolio/static/css/main.60834f72.css.map",
+    "main.1273cc03.css.map": "/qamichael-portfolio/static/css/main.1273cc03.css.map",
     "main.9b1a2bc0.js.map": "/qamichael-portfolio/static/js/main.9b1a2bc0.js.map",
     "770.b477def6.chunk.js.map": "/qamichael-portfolio/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/qamichael-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60834f72.css",
+    "static/css/main.1273cc03.css",
     "static/js/main.9b1a2bc0.js"
   ]
 }

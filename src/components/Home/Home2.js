@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap"; // Importando Button
+import { Container, Row, Col } from "react-bootstrap"; // Importando Button
 import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 

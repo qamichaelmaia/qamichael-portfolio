@@ -1,12 +1,10 @@
 <h2 align="center">
-  QAFolio - Portfólio de Michael Maia<br/>
-  <a href="https://www.linkedin.com/in/qamichael/" target="_blank">qamichael</a>
+  Portfólio de Michael Maia<br/>
+  <a href="https://qamichaelmaia.github.io/qamichael-portfolio/" target="_blank">QAfólio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
 </div>
-
-<br/>
 
 QAFolio é um portfólio para a demonstração das minhas automações de testes.  
 A ideia de criar este repositório veio do desejo de apresentar, de forma prática e objetiva, as habilidades e projetos que venho desenvolvendo na área de qualidade de software.

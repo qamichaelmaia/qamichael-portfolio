@@ -86,6 +86,14 @@ function ExperienceCard() {
       >
         <Card.Body>
           <SectionTitle
+            company="Pris"
+            position="Quality Assurance"
+            startDate="2025-01-13"
+            endDate={null}
+            description="Como estagiário atuo no planejamento e execução de testes manuais, de API e exploratórios, visando garantir a qualidade dos sistemas. Sou responsável pela criação de cenários de testes, levantamento de requisitos e pela colaboração ativa nas cerimônias das squads, garantindo a integração dos testes no processo ágil de desenvolvimento."
+            Icon={CgWorkAlt}
+          />
+          <SectionTitle
             company="Crowdtest"
             position="Analista de Testes"
             startDate="2024-10-10"
@@ -98,7 +106,7 @@ function ExperienceCard() {
             position="Quality Assurance"
             startDate="2024-10-10"
             endDate={null}
-            description="Como QA, sou voluntário em um projeto de aplicativo na área da saúde, utilizando o modelo Scrum e Metodologias Ágeis garantindo a qualidade e usabilidade das funcionalidades relacionadas à saúde, incluindo testes estáticos e testes dinâmicos, para a garantia da conformidade com os padrões regulatórios."
+            description="Sou voluntário em um projeto de aplicativo na área da saúde, utilizando o modelo Scrum e Metodologias Ágeis garantindo a qualidade e usabilidade das funcionalidades relacionadas à saúde, incluindo testes estáticos e testes dinâmicos, para a garantia da conformidade com os padrões regulatórios."
             Icon={CgWorkAlt}
           />
           <SectionTitle

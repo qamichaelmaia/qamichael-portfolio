@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/qamichael-portfolio/static/css/main.d8de93ca.css",
-    "main.js": "/qamichael-portfolio/static/js/main.091a7a8c.js",
+    "main.js": "/qamichael-portfolio/static/js/main.218a4e32.js",
     "static/js/770.b477def6.chunk.js": "/qamichael-portfolio/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/qamichael-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/appium-ebacshop.png": "/qamichael-portfolio/static/media/appium-ebacshop.15ccfe956d958849862b.png",
@@ -17,12 +17,12 @@
     "static/media/pre.svg": "/qamichael-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/qamichael-portfolio/index.html",
     "main.d8de93ca.css.map": "/qamichael-portfolio/static/css/main.d8de93ca.css.map",
-    "main.091a7a8c.js.map": "/qamichael-portfolio/static/js/main.091a7a8c.js.map",
+    "main.218a4e32.js.map": "/qamichael-portfolio/static/js/main.218a4e32.js.map",
     "770.b477def6.chunk.js.map": "/qamichael-portfolio/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/qamichael-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8de93ca.css",
-    "static/js/main.091a7a8c.js"
+    "static/js/main.218a4e32.js"
   ]
 }

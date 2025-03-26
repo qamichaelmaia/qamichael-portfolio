@@ -89,8 +89,8 @@ function ExperienceCard() {
             company="Pris"
             position="Quality Assurance"
             startDate="2025-01-13"
-            endDate={null}
-            description="Como estagiário atuo no planejamento e execução de testes manuais, de API e exploratórios, visando garantir a qualidade dos sistemas. Sou responsável pela criação de cenários de testes, levantamento de requisitos e pela colaboração ativa nas cerimônias das squads, garantindo a integração dos testes no processo ágil de desenvolvimento."
+            endDate="2025-04-01"
+            description="Como QA Estagiário, colaborei para o desenvolvimento de projetos para produtos de Remuneração Variável e Incentivo de Longo Prazo (ILP), utilizando o modelo Scrum e Metodologias Ágeis atuei em projetos com diversos modelos de testes (Exploratórios, Funcionais, APIs, Automação, Regressão, Performance e Banco de Dados) utilizando pipelines de CI/CD como o Azure DevOps e para gerenciamento de projetos o ClickUp e Qase. Garantindo a qualidade e usabilidade das funcionalidades relacionadas ao produto principal da empresa."
             Icon={CgWorkAlt}
           />
           <SectionTitle

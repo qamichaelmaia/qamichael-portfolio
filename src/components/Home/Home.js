@@ -60,7 +60,7 @@ function Home() {
                 <Card.Body>
                   <blockquote className="blockquote mb-0">
                     <p style={{ textAlign: "justify" }}>
-                      Atualmente participo de projetos como Freelancer na Crowdtest e sou QA Voluntário no projeto Pipoca Ágil. Sou formado no curso Engenheiro de Qualidade de Software na EBAC, e estou concluindo a graduação de Análise e Desenvolvimento de Sistemas pela Faculdade VINCIT, tenho excelência em Automação de Testes e Testes Exploratórios. Com forte conhecimento em gerenciamento de projetos, tenho como metodologias o Scrum e Kanban especialmente em projetos Shift-left.
+                      Trabalhei em projetos como QA Estagiário e atualmente participo de projetos como Freelancer na Crowdtest e sou QA Voluntário no projeto Pipoca Ágil. Sou formado no curso Engenheiro de Qualidade de Software na EBAC, e estou concluindo a graduação de Análise e Desenvolvimento de Sistemas pela Faculdade VINCIT, tenho excelência em Automação de Testes, Testes de API e DevOps. Com forte conhecimento em gerenciamento de projetos, tenho como metodologias o Scrum e Kanban especialmente em projetos Shift-left. E tenho experiência com os seguintes modelos de Teste (funcionais, exploratórios, confirmação, regressão, automação (Web/Mobile), API, banco de dados, performance)
                       <br />
                       <br />
                     </p>

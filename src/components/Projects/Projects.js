@@ -6,6 +6,7 @@ import ebacWeb from "../../Assets/Projects/automation-ebacweb.png";
 import ebacAppium from "../../Assets/Projects/appium-ebacshop.png";
 import automationExercise from "../../Assets/Projects/automation-exercise.png";
 import reactApp from "../../Assets/Projects/reactnative-app.png";
+import apiAutomation from "../../Assets/Projects/api-test.png";
 
 function Projects() {
   return (
@@ -20,6 +21,15 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={apiAutomation}
+              isBlog={false}
+              title="Automação de APIs"
+              description="Este repositório está em construção e tem como objetivo a criação de testes automatizados exclusivos para APIs. Atualmente, estão incluídos testes para as APIs do OpenWeather e SpaceX, cobrindo funcionalidades essenciais como previsão do tempo e informações sobre lançamentos espaciais."
+              ghLink="https://github.com/qamichaelmaia/api-test-automation"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ebacAppium}

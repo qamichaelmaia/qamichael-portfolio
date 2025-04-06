@@ -4,6 +4,7 @@ import {
   SiCypress,
   SiSelenium,
   SiPlaywright,
+  SiRobotframework,
   SiAndroidstudio,
   SiPostman,
   SiGraphql,
@@ -29,6 +30,10 @@ function Toolstack() {
       <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
         <SiSelenium style={{ fontSize: "3rem" }} />
         <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Selenium</div>
+      </Col>
+      <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
+        <SiRobotframework style={{ fontSize: "3rem" }} />
+        <div style={{ fontSize: "0.75rem", marginTop: "5px" }}>Robotframework</div>
       </Col>
       <Col xs={4} md={1} className="tech-icons" style={{ textAlign: "center" }}>
         <SiPlaywright style={{ fontSize: "3rem" }} />

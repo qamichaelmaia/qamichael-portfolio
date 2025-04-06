@@ -50,7 +50,7 @@ function AboutCard() {
         />
         <SectionTitle
           title="Automação de Testes"
-          description="Cypress, Playwright e Selenium."
+          description="Cypress, Playwright, Selenium e Robot Framework."
           Icon={FaCogs}
         />
         <SectionTitle
@@ -65,7 +65,7 @@ function AboutCard() {
         />
         <SectionTitle
           title="Pipelines CI/CD"
-          description="GitLab, Jenkins e GitHub Actions."
+          description="Azure DevOps, GitLab, Jenkins e GitHub Actions."
           Icon={FaTools}
         />
         <SectionTitle
@@ -85,7 +85,7 @@ function AboutCard() {
         />
         <SectionTitle
           title="Gestão de Projetos"
-          description="Jira, Trello, Qase."
+          description="ClickUp, Jira, Trello, Qase."
           Icon={FaProjectDiagram}
         />
         <SectionTitle

@@ -126,9 +126,13 @@ function ExperienceCard() {
                     <SectionTitle
                         company="Pris"
                         position="Quality Assurance"
-                        startDate="2025-01-13"
+                        startDate="2024-08-13"
                         endDate="2025-04-01"
                         description="Atuei no desenvolvimento de projetos voltados para produtos de Remuneração Variável e Incentivo de Longo Prazo (ILP), utilizando Scrum e Metodologias Ágeis..
+
+                        Resultados:
+                            • Contribuí para a redução de 33% dos bugs em produção após a sprint em que atuei.
+                            • Recebi reconhecimento da equipe de produto pelo comprometimento e atenção aos detalhes.
 
                         Minhas principais atividades incluíram:
                         • Automação de testes (Web, Mobile e API)
@@ -145,9 +149,15 @@ function ExperienceCard() {
                     <SectionTitle
                         company="Crowdtest"
                         position="Analista de Testes"
-                        startDate="2024-10-10"
+                        startDate="2024-02-10"
                         endDate={null}
-                        description="Foram conduzidos testes de automatizados e testes manuais, registrando bugs e contribuído para o aprimoramento contínuo dos processos de teste. Alguns dos projetos feitos foram o Serasa e o site Meu Patrocíno."
+                        description="Atuo como QA em projetos para clientes como Serasa, Natura, C&A e Meu Patrocínio, realizando testes em ambientes web e mobile com foco em usabilidade, performance e fluxo real de uso.
+                        
+                        Resultados: 
+                            • Identifiquei falhas críticas no fluxo de pagamento e navegação mobile, agregando valor real ao cliente. 
+                            • Recebi avaliação 5 estrelas em 91% dos ciclos de testes, destacando qualidade e precisão na entrega.
+
+                        "
                         Icon={CgWorkAlt}
                     />
                     <SectionTitle
@@ -155,11 +165,18 @@ function ExperienceCard() {
                         position="Quality Assurance"
                         startDate="2024-10-10"
                         endDate={null}
-                        description="Sou voluntário em um projeto de aplicativo na área da saúde, utilizando o modelo Scrum e Metodologias Ágeis garantindo a qualidade e usabilidade das funcionalidades relacionadas à saúde, incluindo testes estáticos e testes dinâmicos, para a garantia da conformidade com os padrões regulatórios."
+                        description="Atuo como QA voluntário em um projeto de desenvolvimento de um aplicativo na área da saúde, seguindo Scrum, Kanban e metodologias ágeis. O foco do projeto é garantir a usabilidade, segurança e conformidade regulatória das funcionalidades da plataforma.
+                        
+                        Resultados:
+                            • Ajudei a detectar inconsistências críticas no fluxo de login e cadastro de pacientes, solucionadas antes do MVP. 
+                            • Contribuí para a estruturação da primeira suíte de testes manuais do projeto, com documentação acessível para toda a equipe.
+                            • Episódio teve repercussão positiva na comunidade, ampliando minha rede de contatos no LinkedIn.
+                            • Reforcei meu posicionamento como profissional em transição comprometido com o aprendizado contínuo.
+                        "
                         Icon={CgWorkAlt}
                     />
                     <SectionTitle
-                        company="Freelancer"
+                        company="PJ"
                         position="Designer Gráfico"
                         startDate="2022-09-01"
                         endDate="2024-10-01"

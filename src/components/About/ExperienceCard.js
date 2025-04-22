@@ -149,7 +149,7 @@ function ExperienceCard() {
                     <SectionTitle
                         company="Crowdtest"
                         position="Analista de Testes"
-                        startDate="2024-02-10"
+                        startDate="2023-01-10"
                         endDate={null}
                         description="Atuo como QA em projetos para clientes como Serasa, Natura, C&A e Meu Patrocínio, realizando testes em ambientes web e mobile com foco em usabilidade, performance e fluxo real de uso.
                         
@@ -163,9 +163,9 @@ function ExperienceCard() {
                     <SectionTitle
                         company="Pipoca Ágil"
                         position="Quality Assurance"
-                        startDate="2024-10-10"
+                        startDate="2022-12-12"
                         endDate={null}
-                        description="Atuo como QA voluntário em um projeto de desenvolvimento de um aplicativo na área da saúde, seguindo Scrum, Kanban e metodologias ágeis. O foco do projeto é garantir a usabilidade, segurança e conformidade regulatória das funcionalidades da plataforma.
+                        description="Atuo como QA voluntário em projetos de desenvolvimento de aplicações web e mobile na área da saúde, seguindo Scrum, Kanban e metodologias ágeis. O foco do projeto é garantir a usabilidade, segurança e conformidade regulatória das funcionalidades da plataforma.
                         
                         Resultados:
                             • Ajudei a detectar inconsistências críticas no fluxo de login e cadastro de pacientes, solucionadas antes do MVP. 
